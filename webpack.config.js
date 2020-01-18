@@ -57,7 +57,7 @@ module.exports = env => {
             contentBase: path.join(__dirname, "public/"),
             port: 8000,
             publicPath: "/build",
-            hotOnly: true
+            hot: false
         },
     }
 };
